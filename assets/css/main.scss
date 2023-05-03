@@ -1,0 +1,34 @@
+---
+---
+.nav.flex-column {
+}
+
+.col-2.menu {
+  margin: 0px;
+  padding: 0px;
+
+  .menu {
+    background: aliceblue;
+    width: 100%;
+    float: left;
+    height: 100vh;
+    height: calc(100vh - 56px);
+    padding: 0px 12px;
+  }
+}
+.col-10.content {
+  margin: 0px;
+  padding: 0px;
+}
+
+header .navbar {
+  padding-left: 12px;
+}
+footer {
+  background: black;
+  margin-top: 100px;
+  padding: 50px 0px;
+}
+.container-fluid {
+  padding: 0px;
+}
