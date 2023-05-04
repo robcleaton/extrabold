@@ -1,28 +1,13 @@
 ---
 ---
-.nav.flex-column {
-}
 
-.col-2.menu {
-  margin: 0px;
-  padding: 0px;
-
-  .menu {
-    background: aliceblue;
-    width: 100%;
-    float: left;
-    height: 100vh;
-    height: calc(100vh - 56px);
-    padding: 0px 12px;
-  }
-}
-.col-10.content {
-  margin: 0px;
-  padding: 0px;
-}
-
+@import
+        "media"
+;
 header .navbar {
   padding-left: 12px;
+  border-bottom: 1px solid grey;
+  z-index: 100;
 }
 footer {
   background: black;
