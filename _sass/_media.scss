@@ -1,9 +1,9 @@
 // Mobile
 @media only screen and (max-width: 600px) {
   body {
-    background: antiquewhite;
+    background: pink;
   }
-  .left-menu {
+  .menu {
     display: none;
   }
 }
@@ -20,4 +20,7 @@
 
 // Desktop Large
 @media only screen and (min-width: 1350px) {
+  body {
+    background: red;
+  }
 }
