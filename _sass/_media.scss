@@ -6,15 +6,24 @@
   .menu {
     display: none;
   }
+  .flex-container {
+    padding-left: 0px !important;
+  }
 }
 
 
 // Tablet
 @media only screen and (min-width: 601px) {
+  .flex-container {
+    padding-left: 200px !important;
+  }
 }
 
 // Desktop
 @media only screen and (min-width: 991px) {
+  .flex-container {
+    padding-left: 20% !important;
+  }
 }
 
 

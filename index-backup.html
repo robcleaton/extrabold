@@ -16,14 +16,11 @@ navigation:
   header {
     position: fixed;
     width: 100%;
-    z-index: 1;
   }
 .flex-container {
   display: flex;
   flex-wrap: nowrap;
   background-color: DodgerBlue;
-  padding-left: 20%;
-  padding-top: 56px;
 }
 
 .content {
@@ -42,28 +39,23 @@ navigation:
 }
 
 
-.menu .nav {
+.vertical-menu {
   background: yellow;
   width: 20%;
   max-width: 320px;
   min-width: 200px;
   height: 100vh;
   overflow-y: auto;
-  position: fixed;
-  padding: 12px 0px;
-  margin-top: 56px;
 }
 
 
 </style>
 
-
-<div class="menu">
-  {% include menu.html %}
-</div>
-
-
 <div class="flex-container">
+  <div class="menu">
+    {% include menu.html %}
+  </div>
+
   <div class="content">
     <div class="hero-block">
       <div class="container">
