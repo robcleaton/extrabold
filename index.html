@@ -12,61 +12,14 @@ navigation:
 
 {% include header.html %}
 
-<style>
-  header {
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-  }
-.flex-container {
-  display: flex;
-  flex-wrap: nowrap;
-  background-color: DodgerBlue;
-  padding-left: 20%;
-  padding-top: 56px;
-}
-
-.content {
-  width: 100%;
-}
-.menu {
-  background-color: pink;
-  width: 20%;
-  max-width: 320px;
-  min-width: 200px;
-}
-.hero-block {
-  background: hotpink;
-  padding: 10vh 0px;
-  margin-bottom: 2vh;
-}
-
-
-.menu .nav {
-  background: yellow;
-  width: 20%;
-  max-width: 320px;
-  min-width: 200px;
-  height: 100vh;
-  overflow-y: auto;
-  position: fixed;
-  padding: 12px 0px;
-  margin-top: 56px;
-}
-
-
-</style>
-
-
 <div class="menu">
   {% include menu.html %}
 </div>
 
-
 <div class="flex-container">
   <div class="content">
     <div class="hero-block">
-      <div class="container">
+      <div class="container-lg">
         <h1>h1. Bootstrap heading</h1>
         <p class="lead">
           This is a lead paragraph. It stands out from regular paragraphs.
@@ -74,7 +27,7 @@ navigation:
       </div>
     </div>
 
-    <div class="container">
+    <div class="container-lg">
       <h1>h1. Bootstrap heading</h1>
       <h2>h2. Bootstrap heading</h2>
       <h3>h3. Bootstrap heading</h3>

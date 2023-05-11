@@ -1,19 +1,65 @@
 ---
 ---
 
-@import
-        "media"
-;
-header .navbar {
-  padding-left: 12px;
-  border-bottom: 1px solid grey;
-  z-index: 100;
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+
+  .navbar {
+    padding-left: 12px;
+    border-bottom: 1px solid grey;
+    z-index: 100;
+  }
 }
+.menu {
+  background-color: pink;
+  width: 20%;
+  max-width: 320px;
+  min-width: 200px;
+
+  .nav {
+    background: yellow;
+    width: 20%;
+    max-width: 320px;
+    min-width: 200px;
+    height: 100vh;
+    overflow-y: auto;
+    position: fixed;
+    padding: 12px 0px;
+    margin-top: 56px;
+    padding-bottom: 100px;
+  }
+}
+.navbar-toggler {
+  display: none;
+}
+.offcanvas.offcanvas-end {
+  left: 0;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: DodgerBlue;
+  padding-left: 20%;
+  padding-top: 56px;
+}
+.content {
+  width: 100%;
+}
+
+.hero-block {
+  background: hotpink;
+  padding: 10vh 0px;
+  margin-bottom: 2vh;
+}
+
 footer {
   background: rebeccapurple;
   margin-top: 100px;
   padding: 50px 0px;
 }
-.container-fluid {
-  padding: 0px;
-}
+
+@import
+        "media"
+;
