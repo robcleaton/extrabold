@@ -7,7 +7,7 @@
     display: none;
   }
   .flex-container {
-    padding-left: 0px;
+    margin-left: 0px;
   }
   .navbar-toggler {
     display: block;
@@ -17,17 +17,11 @@
 
 // Tablet
 @media only screen and (min-width: 601px) {
-  .flex-container {
-    padding-left: 200px;
-  }
 
 }
 
 // Desktop
 @media only screen and (min-width: 991px) {
-  .flex-container {
-    padding-left: 20%;
-  }
 }
 
 
