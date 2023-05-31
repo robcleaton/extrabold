@@ -11,6 +11,7 @@
   }
   .navbar-toggler {
     display: block;
+    background-color: aquamarine;
   }
 }
 
@@ -27,7 +28,4 @@
 
 // Desktop Large
 @media only screen and (min-width: 1350px) {
-  body {
-    background: red;
-  }
 }
